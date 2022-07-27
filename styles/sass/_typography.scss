@@ -10,6 +10,7 @@ $secondaryTextColour: #FCFCFC;
 //FONT SIZES
 $baseFontSize: 0.9rem;
 $headerFontSize: 2.1rem;
+$h1FontSize: 6rem;
 $h2FontSize: 1.6rem;
 $h3FontSize: 1.5rem;
 
@@ -30,7 +31,7 @@ header {
 
 h1 {
     font-family: $headingFont;
-    font-size: $headerFontSize;
+    font-size: $h1FontSize;
 }
 
 span {

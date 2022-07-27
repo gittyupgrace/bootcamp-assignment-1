@@ -279,7 +279,7 @@ header {
 
 h1 {
   font-family: "Playfair Display", serif;
-  font-size: 2.1rem;
+  font-size: 6rem;
 }
 
 span {
@@ -319,6 +319,7 @@ header {
 
 h1 {
   text-align: center;
+  margin-top: 40%;
 }
 
 span {
