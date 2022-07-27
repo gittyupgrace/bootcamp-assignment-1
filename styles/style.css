@@ -343,6 +343,10 @@ button {
   text-transform: uppercase;
 }
 
+.main-nav ul {
+  color: #FCFCFC;
+}
+
 header {
   min-height: 100vh;
   background-image: url(../assets/asset-1.jpg);
@@ -387,7 +391,7 @@ span {
 }
 
 .about-info {
-  max-width: 50%;
+  width: 50%;
 }
 
 .gallery ul {
@@ -401,4 +405,19 @@ span {
 
 .gallery li {
   width: 31%;
+}
+
+.main-nav {
+  background-image: url(../assets/asset-5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
