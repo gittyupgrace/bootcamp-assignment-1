@@ -240,7 +240,7 @@ html {
 }
 
 section {
-  margin: 50px 0;
+  padding: 50px 0;
 }
 
 img {
@@ -267,6 +267,7 @@ a:focus {
 
 button {
   padding: 10px 20px;
+  margin: 10px;
   border: none;
   background-color: #E7A8E6;
 }
@@ -288,7 +289,7 @@ header {
 
 .logo {
   font-family: "Playfair Display", serif;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 .header-nav ul {
@@ -306,7 +307,7 @@ h1 {
 
 span {
   font-family: "Lato", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   text-transform: uppercase;
 }
 
@@ -316,11 +317,11 @@ h3 {
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.9rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 p {
@@ -334,6 +335,7 @@ button {
   font-size: 1rem;
   font-weight: bold;
   line-height: 29px;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
 }
 
@@ -373,4 +375,14 @@ h1 {
 
 span {
   display: block;
+}
+
+.about-section {
+  background-color: #F0F5FF;
+  text-align: center;
+}
+
+.about-info {
+  max-width: 50%;
+  margin: 35px auto;
 }
