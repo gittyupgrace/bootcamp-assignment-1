@@ -1,0 +1,36 @@
+
+//FONTS
+$headingFont: 'Playfair Display', serif;
+$bodyFont: 'Lato', sans-serif;
+
+//COLOURS
+$primaryTextColour: #000000;
+$secondaryTextColour: #FCFCFC;
+
+//FONT SIZES
+$baseFontSize: 0.9rem;
+$headerFontSize: 2.1rem;
+$h2FontSize: 1.6rem;
+$h3FontSize: 1.5rem;
+
+.logo {
+    font-family: $headingFont;
+    font-size: $h2FontSize;
+}
+
+.header-nav ul {
+    font-family: $bodyFont;
+    font-size: $baseFontSize;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: $headingFont;
+    font-size: $headerFontSize;
+}
+
+span {
+    font-family: $bodyFont;
+    font-size: $h2FontSize;
+    text-transform: uppercase;
+}
