@@ -1,0 +1,28 @@
+header {
+    min-height: 100vh;
+    background-image: url(../assets/asset-1.jpg);
+    background-size: cover;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav a {
+    padding: 15px 10px 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    display: block;
+}
