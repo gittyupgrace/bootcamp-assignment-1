@@ -239,8 +239,12 @@ html {
   font-size: 125%;
 }
 
+body {
+  background-color: #FCFCFC;
+}
+
 section {
-  padding: 50px 0;
+  padding: 85px 0;
 }
 
 img {
@@ -384,5 +388,17 @@ span {
 
 .about-info {
   max-width: 50%;
-  margin: 35px auto;
+}
+
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gallery li {
+  width: 31%;
 }
