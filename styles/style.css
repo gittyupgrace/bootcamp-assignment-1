@@ -283,7 +283,7 @@ button:focus {
 
 .wrapper {
   max-width: 1080px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -420,4 +420,32 @@ span {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.behind-lens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.behind-lens-img {
+  min-width: 35%;
+}
+
+.behind-lens-content {
+  min-width: 60%;
+}
+
+.behind-lens-content h2 {
+  margin-top: 0;
+}
+
+.behind-lens-content button {
+  margin-bottom: 0;
 }

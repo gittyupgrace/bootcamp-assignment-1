@@ -1,0 +1,22 @@
+.behind-lens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.behind-lens-img {
+    min-width: 35%;
+}
+
+.behind-lens-content {
+    min-width: 60%;
+    // margin-left: 30px;
+}
+
+.behind-lens-content h2 {
+    margin-top: 0;
+}
+
+.behind-lens-content button {
+    margin-bottom: 0;
+}
