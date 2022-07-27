@@ -1,10 +1,18 @@
+//GENERAL STYLING COLOURS
+$buttonColour: #E7A8E6;
+$buttonHoverColour: #eb85e9;
+$sectionBackground: #F0F5FF;
+$mobileNavBackground: #232323;
+$footerBackground: #1F2022;
+$footerCopyright: #D8D8D8;
 
+//BASE STYLES AND STYLE STRIPPING
 html {
     font-size: 125%;
 }
 
 section {
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 img {
@@ -22,6 +30,22 @@ a {
     text-decoration: none;
     display: inline-block;
     color: inherit;
+}
+
+a:hover,
+a:focus {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: $buttonColour;
+}
+
+button:hover, 
+button:focus {
+    background-color: $buttonHoverColour;
 }
 
 .wrapper {
