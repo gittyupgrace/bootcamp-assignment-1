@@ -16,7 +16,12 @@ header {
 }
 
 .header-nav a {
-    padding: 15px 10px 3px;
+    padding: 10px 10px 3px;
+}
+
+.header-nav a:hover, 
+.header-nav a:focus {
+    font-weight: bold;
 }
 
 h1 {

@@ -14,6 +14,7 @@ $h1FontSize: 6rem;
 $h2FontSize: 1.6rem;
 $h3FontSize: 1.5rem;
 
+//TYPOGRAPHY STYLING
 header {
     color: $secondaryTextColour;
 }
@@ -26,16 +27,45 @@ header {
 .header-nav ul {
     font-family: $bodyFont;
     font-size: $baseFontSize;
+    line-height: 29px;
     text-transform: uppercase;
 }
 
 h1 {
     font-family: $headingFont;
     font-size: $h1FontSize;
+    line-height: 63px;
 }
 
 span {
     font-family: $bodyFont;
     font-size: $h2FontSize;
+    text-transform: uppercase;
+}
+
+h2, 
+h3 {
+    font-family: $headingFont;
+}
+
+h2 {
+    font-size: $h2FontSize;
+}
+
+h3 {
+    font-size: $h3FontSize;
+}
+
+p {
+    font-family: $bodyFont;
+    font-size: $baseFontSize;
+    line-height: 29px;
+}
+
+button {
+    font-family: $bodyFont;
+    font-size: $baseFontSize;
+    font-weight: bold;
+    line-height: 29px;
     text-transform: uppercase;
 }
