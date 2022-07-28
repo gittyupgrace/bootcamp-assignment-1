@@ -1,5 +1,10 @@
 .blog-posts {
     background-color: $sectionBackground;
+    padding: 0;
+}
+
+.blog-posts div {
+   max-width: 50%;
 }
 
 .post1, 
@@ -7,7 +12,21 @@
     display: flex;
 }
 
-.post1 img, 
-.post2 img {
-    width: 50%;
+.post1 {
+    flex-direction: row-reverse;
+    text-align: right;
 }
+
+.post1 img {
+    flex-shrink: 9;
+}
+
+.post-content {
+    padding: 60px;
+    max-width: 35%;
+}
+
+// .post-content p {
+//     padding: 10px 25px;
+// }
+

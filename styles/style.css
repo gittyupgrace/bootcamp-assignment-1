@@ -465,6 +465,11 @@ span {
 
 .blog-posts {
   background-color: #F0F5FF;
+  padding: 0;
+}
+
+.blog-posts div {
+  max-width: 50%;
 }
 
 .post1,
@@ -474,7 +479,20 @@ span {
   display: flex;
 }
 
-.post1 img,
-.post2 img {
-  width: 50%;
+.post1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+}
+
+.post1 img {
+  -ms-flex-negative: 9;
+      flex-shrink: 9;
+}
+
+.post-content {
+  padding: 60px;
+  max-width: 35%;
 }
