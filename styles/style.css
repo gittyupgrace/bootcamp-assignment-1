@@ -262,11 +262,12 @@ a {
   text-decoration: none;
   display: inline-block;
   color: inherit;
+  font-weight: 700;
 }
 
 a:hover,
 a:focus {
-  font-weight: bold;
+  font-weight: 200;
 }
 
 button {
@@ -332,6 +333,10 @@ p {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   line-height: 29px;
+}
+
+a {
+  font-weight: 700;
 }
 
 button {
@@ -417,9 +422,17 @@ span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 100px;
+}
+
+.nav-icon {
+  text-align: center;
+  padding: 20px;
 }
 
 .behind-lens {
@@ -448,4 +461,20 @@ span {
 
 .behind-lens-content button {
   margin-bottom: 0;
+}
+
+.blog-posts {
+  background-color: #F0F5FF;
+}
+
+.post1,
+.post2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post1 img,
+.post2 img {
+  width: 50%;
 }

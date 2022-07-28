@@ -1,0 +1,13 @@
+.blog-posts {
+    background-color: $sectionBackground;
+}
+
+.post1, 
+.post2 {
+    display: flex;
+}
+
+.post1 img, 
+.post2 img {
+    width: 50%;
+}
