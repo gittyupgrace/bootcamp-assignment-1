@@ -35,11 +35,12 @@ a {
     text-decoration: none;
     display: inline-block;
     color: inherit;
+    font-weight: 700;
 }
 
 a:hover,
 a:focus {
-    font-weight: bold;
+    font-weight: 200;
 }
 
 button {
