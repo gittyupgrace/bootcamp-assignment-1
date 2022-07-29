@@ -112,34 +112,32 @@
     </main>
 
     <footer>
-        <ul class="wrapper">
-            <li>
-                <ul id="contact">
-                    <li><h4>Contact</h4></li>
-                    <li>info@email.com</li>
-                    <li>123 - 456 - 7890</li>
-                    <li>123 some road,</li>
-                    <li>Toronto, ON</li>
-                </ul>
-            </li>
-            <li>
-                <form action="#" method="#" class="newsletter-form" name="newsletter-form">
-                    <h4>Stay Updated</h4>
+        <div class="wrapper footer-flex">
+            <ul class="footer-contact" id="contact">
+                <li><h4>Contact</h4></li>
+                <li>info@email.com</li>
+                <li>123 - 456 - 7890</li>
+                <li>123 some road,</li>
+                <li>Toronto, ON</li>
+            </ul>
 
+            <div class="form-container">
+                <h4>Stay Updated</h4>
+                <form action="#" method="#" class="footer-form" name="newsletter-form">
                     <label for="email">Subscribe to our newsletter to stay updated.</label>
-                    <input type="email" id="email" name="email"><button type="submit">Subscribe</button>
+                    <input type="email" class="email" id="email" name="email" placeholder="email address">
+                    <input type="submit" value="Subscribe" class="subscribe button"></input>
                 </form>
-            </li>
-            <li>
-                <ul>
-                    <li><h4>Pages</h4></li>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </li>
-        </ul>
+            </div>
+            
+            <ul class="footer-links">
+                <li><h4>Pages</h4></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
         <p>Made at <a href="https://junocollege.com/">Juno College</a></p>
     </footer>
 </body>

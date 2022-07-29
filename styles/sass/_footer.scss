@@ -1,0 +1,51 @@
+footer {
+    background-color: $footerBackground;
+    color: $secondaryTextColour;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-size: $h4FontSize;
+    margin: 2px;
+}
+
+footer p {
+    background-color: $primaryTextColour;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    font-family: $bodyFont;
+}
+
+.footer-contact, 
+.footer-links {
+    line-height: 29px;
+}
+
+.footer-links {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.form-container {
+    text-align: center;
+}
+
+label {
+    display: block;
+    padding: 5px;
+}
+
+.email {
+    padding: 10px 225px 10px 25px;
+}
+
+.subscribe {
+    margin-left: 0;
+}

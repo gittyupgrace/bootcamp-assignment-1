@@ -270,7 +270,8 @@ a:focus {
   font-weight: 200;
 }
 
-button {
+button,
+.button {
   padding: 10px 20px;
   margin: 10px;
   border: none;
@@ -493,4 +494,60 @@ span {
 .post-content {
   padding: 60px;
   max-width: 35%;
+}
+
+footer {
+  background-color: #1F2022;
+  color: #FCFCFC;
+}
+
+footer h4 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  margin: 2px;
+}
+
+footer p {
+  background-color: #000000;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.footer-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px 0;
+  font-family: "Lato", sans-serif;
+}
+
+.footer-contact,
+.footer-links {
+  line-height: 29px;
+}
+
+.footer-links {
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.form-container {
+  text-align: center;
+}
+
+label {
+  display: block;
+  padding: 5px;
+}
+
+.email {
+  padding: 10px 225px 10px 25px;
+}
+
+.subscribe {
+  margin-left: 0;
 }
