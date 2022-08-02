@@ -1,8 +1,4 @@
 @media (max-width: 800px) {
-    .wrapper {
-        width: 100%;
-    }
-
     //hamburger nav
 
 
@@ -26,4 +22,28 @@
         background-image: none;
         background-color: $mobileNavBackground;
     }
+
+    //Behind the Lens Section
+
+    .behind-lens {
+        flex-direction: column;
+    }
+
+    .behind-lens-img, 
+    .behind-lens-content {
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    //Blog Section
+
+    .post {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog-posts div {
+        min-width: 100%;
+    }
+
 }
