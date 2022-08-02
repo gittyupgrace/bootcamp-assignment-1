@@ -433,7 +433,7 @@ span {
 
 .nav-icon {
   text-align: center;
-  padding: 20px;
+  padding: 25px;
 }
 
 .behind-lens {
@@ -454,6 +454,7 @@ span {
 
 .behind-lens-content {
   min-width: 60%;
+  padding-left: 30px;
 }
 
 .behind-lens-content h2 {
@@ -536,7 +537,7 @@ footer p {
 }
 
 .form-container {
-  text-align: center;
+  min-width: 50%;
 }
 
 label {
@@ -545,9 +546,24 @@ label {
 }
 
 .email {
-  padding: 10px 225px 10px 25px;
+  width: 70%;
 }
 
-.subscribe {
-  margin-left: 0;
+@media (max-width: 800px) {
+  .wrapper {
+    width: 100%;
+  }
+  .gallery-section {
+    padding: 0;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .gallery li {
+    width: 50%;
+  }
+  .main-nav {
+    background-image: none;
+    background-color: #232323;
+  }
 }

@@ -1,0 +1,29 @@
+@media (max-width: 800px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    //hamburger nav
+
+
+    //Gallery Section
+
+    .gallery-section {
+        padding: 0;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .gallery li {
+        width: 50%;
+    }
+
+    //Main Nav Section
+
+    .main-nav {
+        background-image: none;
+        background-color: $mobileNavBackground;
+    }
+}

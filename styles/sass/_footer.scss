@@ -1,3 +1,7 @@
+// * {
+//     border: 1px solid lawngreen;
+// }
+
 footer {
     background-color: $footerBackground;
     color: $secondaryTextColour;
@@ -34,7 +38,8 @@ footer p {
 }
 
 .form-container {
-    text-align: center;
+    // text-align: center;
+    min-width: 50%;
 }
 
 label {
@@ -43,9 +48,15 @@ label {
 }
 
 .email {
-    padding: 10px 225px 10px 25px;
+    width: 70%;
+    // position: absolute;
+    // padding: 10px 225px 10px 25px;
 }
 
 .subscribe {
-    margin-left: 0;
+    // position: relative;
+    // left: 0;
+    // margin-left: 0;
+    // width: 35%;
+    // display: inline;
 }
