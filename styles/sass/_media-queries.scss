@@ -1,5 +1,31 @@
 @media (max-width: 800px) {
-    //hamburger nav
+    //Header & Hamburger Nav
+
+    .nav-contents {
+        display: none;
+    }
+
+    .nav-contents ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        border: 2px solid white;
+        padding: 10px;
+        text-align: right;
+    }
+
+    label[for="hamburger"] {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked + .nav-contents {
+        display: inline-block;
+    }
 
     h1 {
         font-size: 5rem;
@@ -75,10 +101,20 @@
         text-align: center;
     }
 
+    label {
+        margin-bottom: 20px;
+    }
+
+    .email,
+    .subscribe {
+        width: 100%;
+    }
+
     .footer-contact, 
     .footer-links {
         width: 50%;
         text-align: center;
+        margin-top: 20px;
     }
 
 }

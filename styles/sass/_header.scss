@@ -4,6 +4,14 @@ header {
     background-size: cover;
 }
 
+label[for="hamburger"] {
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
