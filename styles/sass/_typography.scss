@@ -1,65 +1,65 @@
 
 //FONTS
-$headingFont: 'Playfair Display', serif;
-$bodyFont: 'Lato', sans-serif;
+$heading-font: 'Playfair Display', serif;
+$body-font: 'Lato', sans-serif;
 
 //COLOURS
-$primaryTextColour: #000000;
-$secondaryTextColour: #FCFCFC;
+$primary-text-colour: #000000;
+$secondary-text-colour: #FCFCFC;
 
 //FONT SIZES
-$baseFontSize: 1rem;
-$headerFontSize: 2.1rem;
-$h1FontSize: 6rem;
-$h2FontSize: 1.9rem;
-$h3FontSize: 1.7rem;
-$h4FontSize: 1.25rem;
+$base-font-size: 1rem;
+$header-font-size: 2.1rem;
+$h1-font-size: 6rem;
+$h2-font-size: 1.9rem;
+$h3-font-size: 1.7rem;
+$h4-font-size: 1.25rem;
 
 //TYPOGRAPHY STYLING
 header {
-    color: $secondaryTextColour;
+    color: $secondary-text-colour;
 }
 
 .logo {
-    font-family: $headingFont;
-    font-size: $h2FontSize;
+    font-family: $heading-font;
+    font-size: $h2-font-size;
 }
 
 .header-nav ul {
-    font-family: $bodyFont;
-    font-size: $baseFontSize;
+    font-family: $body-font;
+    font-size: $base-font-size;
     line-height: 29px;
     text-transform: uppercase;
 }
 
 h1 {
-    font-family: $headingFont;
-    font-size: $h1FontSize;
+    font-family: $heading-font;
+    font-size: $h1-font-size;
     line-height: 63px;
 }
 
 span {
-    font-family: $bodyFont;
-    font-size: $h2FontSize;
+    font-family: $body-font;
+    font-size: $h2-font-size;
     text-transform: uppercase;
 }
 
 h2, 
 h3 {
-    font-family: $headingFont;
+    font-family: $heading-font;
 }
 
 h2 {
-    font-size: $h2FontSize;
+    font-size: $h2-font-size;
 }
 
 h3 {
-    font-size: $h3FontSize;
+    font-size: $h3-font-size;
 }
 
 p {
-    font-family: $bodyFont;
-    font-size: $baseFontSize;
+    font-family: $body-font;
+    font-size: $base-font-size;
     line-height: 29px;
 }
 
@@ -68,8 +68,8 @@ a {
 }
 
 button {
-    font-family: $bodyFont;
-    font-size: $baseFontSize;
+    font-family: $body-font;
+    font-size: $base-font-size;
     font-weight: bold;
     line-height: 29px;
     letter-spacing: 0.5px;
@@ -77,5 +77,5 @@ button {
 }
 
 .main-nav ul {
-    color: $secondaryTextColour;
+    color: $secondary-text-colour;
 }

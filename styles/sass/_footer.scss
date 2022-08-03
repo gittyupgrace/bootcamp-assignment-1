@@ -1,20 +1,16 @@
-// * {
-//     border: 1px solid lawngreen;
-// }
-
 footer {
-    background-color: $footerBackground;
-    color: $secondaryTextColour;
+    background-color: $footer-background;
+    color: $secondary-text-colour;
 }
 
 footer h4 {
     text-transform: uppercase;
-    font-size: $h4FontSize;
+    font-size: $h4-font-size;
     margin: 2px;
 }
 
 footer p {
-    background-color: $primaryTextColour;
+    background-color: $primary-text-colour;
     margin: 0;
     padding: 5px;
     text-align: center;
@@ -24,7 +20,7 @@ footer p {
     display: flex;
     justify-content: space-between;
     padding: 50px 0;
-    font-family: $bodyFont;
+    font-family: $body-font;
 }
 
 .footer-contact, 
@@ -38,7 +34,6 @@ footer p {
 }
 
 .form-container {
-    // text-align: center;
     min-width: 50%;
 }
 

@@ -1,11 +1,11 @@
 //GENERAL STYLING COLOURS
-$bodyBackground: #FCFCFC;
-$sectionBackground: #F0F5FF;
-$buttonColour: #E7A8E6;
-$buttonHoverColour: #eb85e9;
-$mobileNavBackground: #232323;
-$footerBackground: #1F2022;
-$footerCopyright: #D8D8D8;
+$body-background: #FCFCFC;
+$section-background: #F0F5FF;
+$button-colour: #E7A8E6;
+$button-hover-colour: #eb85e9;
+$mobile-nav-background: #232323;
+$footer-background: #1F2022;
+$footer-copyright: #D8D8D8;
 
 //BASE STYLES AND STYLE STRIPPING
 html {
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background-color: $bodyBackground;
+    background-color: $body-background;
 }
 
 section {
@@ -48,16 +48,16 @@ button,
     padding: 10px 20px;
     margin: 10px;
     border: none;
-    background-color: $buttonColour;
+    background-color: $button-colour;
 }
 
 button:hover, 
 button:focus {
-    background-color: $buttonHoverColour;
+    background-color: $button-hover-colour;
 }
 
 .wrapper {
-    max-width: 1080px;
+    max-width: 1280px;
     width: 90%;
     margin: 0 auto;
 }
