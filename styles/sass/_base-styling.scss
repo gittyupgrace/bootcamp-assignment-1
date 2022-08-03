@@ -43,7 +43,6 @@ a:focus {
     font-weight: 200;
 }
 
-button, 
 .button {
     padding: 10px 20px;
     margin: 10px;
@@ -51,8 +50,8 @@ button,
     background-color: $button-colour;
 }
 
-button:hover, 
-button:focus {
+.button:hover, 
+.button:focus {
     background-color: $button-hover-colour;
 }
 

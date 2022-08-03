@@ -270,7 +270,6 @@ a:focus {
   font-weight: 200;
 }
 
-button,
 .button {
   padding: 10px 20px;
   margin: 10px;
@@ -278,8 +277,8 @@ button,
   background-color: #E7A8E6;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: #eb85e9;
 }
 
@@ -309,9 +308,12 @@ h1 {
   font-family: "Playfair Display", serif;
   font-size: 6rem;
   line-height: 63px;
+  text-align: center;
+  margin-top: 40%;
 }
 
 span {
+  display: block;
   font-family: "Lato", sans-serif;
   font-size: 1.9rem;
   text-transform: uppercase;
@@ -340,7 +342,7 @@ a {
   font-weight: 700;
 }
 
-button {
+.button {
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: bold;
@@ -351,10 +353,6 @@ button {
 
 .main-nav ul {
   color: #FCFCFC;
-}
-
-.desktop-hide {
-  display: none;
 }
 
 header {
@@ -384,15 +382,6 @@ header {
 
 .header-nav a {
   padding: 10px 10px 3px;
-}
-
-h1 {
-  text-align: center;
-  margin-top: 40%;
-}
-
-span {
-  display: block;
 }
 
 .about-section {
@@ -545,8 +534,14 @@ label {
 }
 
 @media (max-width: 800px) {
-  .mobile-hide {
-    display: none;
+  h1 {
+    font-size: 5rem;
+  }
+  span {
+    font-size: 1.5rem;
+  }
+  .about-info {
+    width: 80%;
   }
   .gallery-section {
     padding: 0;

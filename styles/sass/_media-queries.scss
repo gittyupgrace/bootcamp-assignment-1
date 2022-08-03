@@ -1,8 +1,18 @@
 @media (max-width: 800px) {
     //hamburger nav
 
-    .mobile-hide {
-        display: none;
+    h1 {
+        font-size: 5rem;
+    }
+
+    span {
+        font-size: 1.5rem;
+    }
+
+    //About Section
+
+    .about-info {
+        width: 80%;
     }
 
     //Gallery Section
